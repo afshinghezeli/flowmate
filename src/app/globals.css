@@ -19,3 +19,45 @@
 .animate-meteor {
   animation: meteor linear infinite;
 }
+
+@keyframes infiniteScroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-infinite-scroll {
+  animation: infiniteScroll 30s linear infinite;
+}
+
+.animate-infinite-scroll:hover {
+  animation-play-state: paused;
+}
+
+.trusted-logos-container {
+  position: relative;
+}
+
+.trusted-logos-container::before,
+.trusted-logos-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 100px;
+  height: 100%;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.trusted-logos-container::before {
+  left: 0;
+  background: linear-gradient(to right, #0D0D12, transparent);
+}
+
+.trusted-logos-container::after {
+  right: 0;
+  background: linear-gradient(to left, #0D0D12, transparent);
+}

@@ -8,7 +8,6 @@ export interface AnimatedBeamProps {
   containerRef: React.RefObject<HTMLElement | null>;
   fromRef: React.RefObject<HTMLElement | null>;
   toRef: React.RefObject<HTMLElement | null>;
-  curvature?: number;
   reverse?: boolean;
   duration?: number;
   delay?: number;
@@ -30,7 +29,6 @@ export const AnimatedBeam = forwardRef<SVGSVGElement, AnimatedBeamProps>(
       containerRef,
       fromRef,
       toRef,
-      curvature = 0,
       reverse = false,
       duration = Math.random() * 3 + 4,
       delay = 0,
@@ -82,7 +80,7 @@ export const AnimatedBeam = forwardRef<SVGSVGElement, AnimatedBeamProps>(
           height: containerRect.height,
         });
       }
-    }, [containerRef, fromRef, toRef, curvature, startXOffset, startYOffset, endXOffset, endYOffset]);
+    }, [containerRef, fromRef, toRef, startXOffset, startYOffset, endXOffset, endYOffset]);
 
     useEffect(() => {
       updatePath();

@@ -14,7 +14,7 @@ const integrations = [
 ];
 
 // Central FlowMate logo component - exact match to Container.png
-function CentralLogo({ logoRef }: { logoRef: React.RefObject<HTMLDivElement> }) {
+function CentralLogo({ logoRef }: { logoRef: React.RefObject<HTMLDivElement | null> }) {
   return (
     <div
       ref={logoRef}
@@ -38,7 +38,7 @@ function IntegrationIcon({
   iconRef 
 }: { 
   integration: typeof integrations[0]; 
-  iconRef: React.RefObject<HTMLDivElement>;
+  iconRef: React.RefObject<HTMLDivElement | null>;
 }) {
   return (
     <div

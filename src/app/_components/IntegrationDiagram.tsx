@@ -59,7 +59,7 @@ function IntegrationIcon({
 export default function IntegrationDiagram() {
   const containerRef = useRef<HTMLDivElement>(null);
   const centralLogoRef = useRef<HTMLDivElement>(null);
-  const iconRefs = useRef<(React.RefObject<HTMLDivElement>)[]>(
+  const iconRefs = useRef<(React.RefObject<HTMLDivElement | null>)[]>(
     integrations.map(() => React.createRef<HTMLDivElement>())
   );
 

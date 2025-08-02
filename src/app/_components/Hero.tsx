@@ -424,7 +424,7 @@ function Content() {
 // Main Hero component
 export default function Hero() {
   return (
-    <div className="relative size-full bg-black" data-name="Hero">
+    <div className="relative size-full" data-name="Hero">
       <div className="flex flex-col items-center relative size-full">
         <div className="box-border content-stretch flex flex-col gap-[100px] items-center justify-start px-[100px] py-[30px] relative size-full">
           <SkyBackground />

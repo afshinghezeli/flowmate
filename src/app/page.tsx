@@ -2,6 +2,7 @@ import Hero from "./_components/Hero";
 import { Meteors } from "./_components/Meteors";
 import TrustedByLogo from "./_components/TrustedByLogo";
 import PowerFeatures from "./_components/PowerFeatures";
+import SeamlessIntegrations from "./_components/SeamlessIntegrations";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       </div>
       <TrustedByLogo />
       <PowerFeatures />
+      <SeamlessIntegrations />
     </>
   );
 }

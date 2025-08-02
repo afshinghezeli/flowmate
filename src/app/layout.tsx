@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${interTight.variable}`}>
+      <body className={`${interTight.variable} bg-greyscale-900`}>
         <main>{children}</main>
       </body>
     </html>

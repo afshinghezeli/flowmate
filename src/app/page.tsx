@@ -1,6 +1,7 @@
 import Hero from "./_components/Hero";
 import { Meteors } from "./_components/Meteors";
 import TrustedByLogo from "./_components/TrustedByLogo";
+import PowerFeatures from "./_components/PowerFeatures";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <Hero />
       </div>
       <TrustedByLogo />
+      <PowerFeatures />
     </>
   );
 }

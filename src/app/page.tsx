@@ -5,6 +5,7 @@ import PowerFeatures from "./_components/PowerFeatures";
 import SeamlessIntegrations from "./_components/SeamlessIntegrations";
 import PricingSection from "./_components/PricingSection";
 import TestimonialsSection from "./_components/TestimonialsSection";
+import CTASection from "./_components/CTASection";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <SeamlessIntegrations />
       <PricingSection />
       <TestimonialsSection />
+      <CTASection />
     </>
   );
 }

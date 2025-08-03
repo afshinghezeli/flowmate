@@ -17,7 +17,7 @@ const testimonials: Testimonial[] = [
     id: 1,
     rating: 5.0,
     title: "A Game Changer for Our Business",
-    content: "Thanks to the integrated tools, managing our inventory and orders has never been easier. We've seen a 30% increase in sales within three months!",
+    content: "Thanks to the integrated tools, managing our inventory and orders has never been easier. We&apos;ve seen a 30% increase in sales within three months!",
     avatar: "/images/avatars/avatar1.svg",
     name: "Siti Sarah",
     role: "Small Business Owner"
@@ -26,7 +26,7 @@ const testimonials: Testimonial[] = [
     id: 2,
     rating: 5.0,
     title: "Seamless and Easy to Use", 
-    content: "The platform is incredibly user-friendly. Setting up promotions and tracking customer orders is a breeze. It's been a key part of our growth.",
+    content: "The platform is incredibly user-friendly. Setting up promotions and tracking customer orders is a breeze. It&apos;s been a key part of our growth.",
     avatar: "/images/avatars/avatar2.svg",
     name: "David",
     role: "E-Commerce Entrepreneur"

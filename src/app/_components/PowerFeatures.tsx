@@ -56,13 +56,13 @@ function GlowBackground() {
 const features = [
   {
     title: "Drag, Drop, Automate",
-    description: "No code? No problem. Build powerful workflows with an interface so smooth, it's almost fun.",
+    description: "No code? No problem. Build powerful workflows with an interface so smooth, it&apos;s almost fun.",
     image: "/images/features/drag.png",
     colSpan: "col-span-12 lg:col-span-5"
   },
   {
     title: "Scale Without the Scream", 
-    description: "Whether you've got 10 users or 10,000, Flowmate grows with you—minus the tech headaches.",
+    description: "Whether you&apos;ve got 10 users or 10,000, Flowmate grows with you—minus the tech headaches.",
     image: "/images/features/scale.png",
     colSpan: "col-span-12 lg:col-span-7"
   },
@@ -74,7 +74,7 @@ const features = [
   },
   {
     title: "Smart Enough to Chill",
-    description: "Our AI does the thinking, so you don't have to. Optimize, predict, and adapt on autopilot.",
+    description: "Our AI does the thinking, so you don&apos;t have to. Optimize, predict, and adapt on autopilot.",
     image: "/images/features/smart.png",
     colSpan: "col-span-12 lg:col-span-5"
   }

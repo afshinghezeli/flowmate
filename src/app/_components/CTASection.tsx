@@ -116,7 +116,7 @@ export default function CTASection() {
             
             {/* Description */}
             <p className="text-greyscale-100 text-lg leading-relaxed mb-8 max-w-xl">
-              Start building powerful workflows in minutes. Whether you're launching a startup or scaling an enterprise, gives you the tools to move faster—no code required.
+              Start building powerful workflows in minutes. Whether you&apos;re launching a startup or scaling an enterprise, gives you the tools to move faster—no code required.
             </p>
 
             {/* CTA Buttons */}

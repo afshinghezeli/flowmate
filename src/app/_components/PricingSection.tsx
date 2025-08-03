@@ -192,7 +192,7 @@ function PricingCard({ plan }: PricingCardProps) {
       {/* Features */}
       <div>
         <h4 className={`${getTextColor()} text-lg font-semibold mb-4`}>
-          What's included
+          What&apos;s included
         </h4>
         <ul className="space-y-3">
           {plan.features.map((feature, index) => (
@@ -238,7 +238,7 @@ export default function PricingSection() {
           
           {/* Description */}
           <p className="text-greyscale-400 text-lg leading-relaxed max-w-2xl mx-auto mb-12">
-            Whether you're just getting started or running at full speed,<br />
+            Whether you&apos;re just getting started or running at full speed,<br />
             Flowmate has a plan that fits. No hidden fees.
           </p>
 

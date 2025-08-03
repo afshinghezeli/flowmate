@@ -4,6 +4,7 @@ import TrustedByLogo from "./_components/TrustedByLogo";
 import PowerFeatures from "./_components/PowerFeatures";
 import SeamlessIntegrations from "./_components/SeamlessIntegrations";
 import PricingSection from "./_components/PricingSection";
+import TestimonialsSection from "./_components/TestimonialsSection";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <PowerFeatures />
       <SeamlessIntegrations />
       <PricingSection />
+      <TestimonialsSection />
     </>
   );
 }

@@ -1,5 +1,6 @@
 import { Inter_Tight } from "next/font/google";
 import "./globals.css";
+import Footer from "./_components/Footer";
 
 const interTight = Inter_Tight({
   subsets: ["latin"],
@@ -17,6 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${interTight.variable} bg-greyscale-900`}>
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );
